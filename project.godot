@@ -48,6 +48,13 @@ shoot={
  ]
 }
 
+[layer_names]
+
+2d_render/layer_1="rockets"
+2d_render/layer_2="bullets"
+2d_render/layer_3="obstacles"
+2d_render/layer_4="extras"
+
 [rendering]
 
 quality/driver/driver_name="GLES2"

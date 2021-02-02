@@ -1,9 +1,13 @@
-extends TileMap
+extends KinematicBody2D
 
 var bulletRef = preload("res://bullet.tscn")
 # Declare member variables here. Examples:
 # var a = 2
 # var b = "text"
+
+func rocketHit():
+	get_parent().removeRocket(self)
+	queue_free()
 
 func shoot():
 	var newBullet = bulletRef.instance()
@@ -14,7 +18,7 @@ func shoot():
 	
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass
+	collision_layer = 0
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
