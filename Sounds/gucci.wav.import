@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/gucci.wav-a06d27b242748d5322cec6528bbf8545.sample"
+
+[deps]
+
+source_file="res://Sounds/gucci.wav"
+dest_files=[ "res://.import/gucci.wav-a06d27b242748d5322cec6528bbf8545.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
