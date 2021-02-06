@@ -21,7 +21,9 @@ func _physics_process(delta):
 			if col.collider.get_parent().has_method("diamondHit"): 
 				col.collider.get_parent().diamondHit()
 				queue_free()
-			#elif col.collider.name == "bullet": queue_free()
+			elif col.collider.name == "bullet": 
+				queue_free()
+				col.collider.queue_free()
 			
 		#translate(Vector2(0, SPEED))
 		timeSinceMove = 0

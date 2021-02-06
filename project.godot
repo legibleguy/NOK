@@ -16,9 +16,13 @@ _global_script_class_icons={
 [application]
 
 config/name="$NOK"
-run/main_scene="res://map.tscn"
+run/main_scene="res://Menu.tscn"
 run/frame_delay_msec=1
-config/icon="res://icon.png"
+config/icon="res://Premade/icon.png"
+
+[autoload]
+
+savegame="*res://saveobject.gd"
 
 [display]
 
